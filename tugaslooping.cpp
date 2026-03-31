@@ -13,3 +13,10 @@ void tampilkanMenu()
     cout << "pilih menu" << endl;
     cin >> pilihan;
 }
+
+void inputAngka()
+{
+    cout << "masukkan angka yang ingin dicek =";
+    cin >> angka;
+}
+
