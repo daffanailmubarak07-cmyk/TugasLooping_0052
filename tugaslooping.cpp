@@ -72,4 +72,16 @@ int main()
                 inputAngka();
                 tampilkanHasil(isPrima(angka), "bilangan prima");
                 break;
-           
+     case 2:
+                inputAngka();
+                tampilkanHasil(isFibonacci(angka), "deret fibonacci");
+                break;
+            case 0:
+                cout << "keluar dari program." << endl;
+                return 0;
+            default:
+                cout << "pillihan tidak valid. coba lagi" << endl;
+                break;
+        }
+    }
+      
