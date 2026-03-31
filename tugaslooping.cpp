@@ -62,3 +62,8 @@ int main()
 {
     while (true) 
     
+{
+        tampilkanMenu();
+
+        switch (pilihan)
+        
