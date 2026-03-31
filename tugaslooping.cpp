@@ -26,3 +26,22 @@ bool isPrima(int n)
     int i = 2;
     while (i * i <= n)
     
+{
+        if (n % i == 0) return false;
+        i++;
+    }
+    return true;
+}
+
+bool isFibonacci(int n)
+{
+    if (n < 0) return false;
+    int a = 0;
+    int b = 1;
+    while (b < n)
+    {
+        int temp = b;
+        b = a + b;
+        a = temp;
+    }
+   
