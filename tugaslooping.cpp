@@ -46,40 +46,4 @@ bool isFibonacci(int n)
     return (b == n || n == 0);
 }
 
-void tampilkanHasil(bool hasil, string jenis)
-{
-    if (hasil)
-    {
-        cout << "hasil: " << angka << " adalah bagian dari " << jenis << "." << endl;
-    } else
-    {
-        cout << "hasil: " << angka << " bukan bagian dari " << jenis << "." << endl;
-    }
-}
 
-int main()
-{
-    while (true) 
-    {
-        tampilkanMenu();
-
-        switch (pilihan)
-        {
-            case 1:
-                inputAngka();
-                tampilkanHasil(isPrima(angka), "bilangan prima");
-                break;
-            case 2:
-                inputAngka();
-                tampilkanHasil(isFibonacci(angka), "deret fibonacci");
-                break;
-            case 0:
-                cout << "keluar dari program." << endl;
-                return 0;
-            default:
-                cout << "pillihan tidak valid. coba lagi" << endl;
-                break;
-        }
-    }
-    return 0;
-}
