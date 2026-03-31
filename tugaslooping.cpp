@@ -48,13 +48,3 @@ bool isFibonacci(int n)
 
 void tampilkanHasil(bool hasil, string jenis)
 
-{
-    if (hasil)
-    {
-        cout << "hasil: " << angka << " adalah bagian dari " << jenis << "." << endl;
-    } else
-    {
-        cout << "hasil: " << angka << " bukan bagian dari " << jenis << "." << endl;
-    }
-}
-
