@@ -72,4 +72,4 @@ int main()
                 inputAngka();
                 tampilkanHasil(isPrima(angka), "bilangan prima");
                 break;
-            
+           
