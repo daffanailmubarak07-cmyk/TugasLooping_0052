@@ -67,3 +67,9 @@ int main()
 
         switch (pilihan)
         
+{
+            case 1:
+                inputAngka();
+                tampilkanHasil(isPrima(angka), "bilangan prima");
+                break;
+            
